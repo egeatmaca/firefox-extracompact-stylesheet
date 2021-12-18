@@ -1,0 +1,25 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+#TabsToolbar { height: 25px !important; }
+
+.tab-content {
+    height: 23px !important;
+}
+
+.tab-content[selected="true"] {
+    height: 23px !important;
+}
+
+.tab-background .tab-loading-burst {
+    max-height: 25px !important;
+    background-color:rgba(21, 21, 21)
+}
+
+.tab-background[selected="true"] .tab-loading-burst {
+    max-height: 25px !important;
+    background-color:rgba(34, 34, 34);
+}
+
+#nav-bar {
+    height: 32px;
+}
